@@ -36,8 +36,10 @@ class Choropleth { // eslint-disable-line no-unused-vars
 
     set(name, value) {
         if (typeof name === 'object') {
-            for (const [n, v] of Object.entries(name)) {
-                this.set(n, v);
+            for (const n in name) {
+                if (name.hasOwnProperty(n)) {
+                    this.set(n, name[n]);
+                }
             }
         }
         else {
