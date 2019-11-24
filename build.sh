@@ -2,4 +2,9 @@
 
 cp -au node_modules/leaflet/dist/leaflet.js example/js/
 cp -au node_modules/leaflet/dist/leaflet.css example/css/
-cp -au choropleth.js example/js/
+
+npx babel choropleth.js | \
+    npx browserify - \
+    > example/choropleth.js
+
+#    npx terser -c -m --toplevel --comments /Copyright/ \

@@ -9,7 +9,12 @@
   },
   "main": "choropleth.js",
   "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
     "@mapbox/togeojson": "^0.16.0",
+    "browserify": "^16.5.0",
+    "core-js": "^2.6.10",
     "eslint": "^6.7.0",
     "xmldom": "^0.1.27"
   },
