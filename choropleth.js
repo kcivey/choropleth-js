@@ -1,3 +1,10 @@
+/**
+ * Copyright 2019 Keith C. Ivey
+ * keith@iveys.org
+ * https://dcgeekery.com
+ * ISC License
+ * Source: https://github/kcivey/choropleth-js
+ */
 /* globals L */
 
 class Choropleth { // eslint-disable-line no-unused-vars
