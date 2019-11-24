@@ -5,7 +5,6 @@
   "author": "Keith C. Ivey <keith@iveys.org> (https://github.com/kcivey)",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^3.4.1",
     "leaflet": "^1.6.0"
   },
   "main": "choropleth.js",

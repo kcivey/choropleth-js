@@ -1,4 +1,4 @@
-/* globals L, jQuery */
+/* globals L */
 
 class Choropleth { // eslint-disable-line no-unused-vars
 
@@ -26,7 +26,7 @@ class Choropleth { // eslint-disable-line no-unused-vars
         this.set(options);
         let resizeTimer;
         const handleResize = () => this.display();
-        jQuery(window).on('resize', function () {
+        window.addEventListener('resize', function () {
             if (resizeTimer) {
                 clearTimeout(resizeTimer);
             }
