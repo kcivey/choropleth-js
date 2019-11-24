@@ -1,4 +1,4 @@
-/* globals DcMap, jQuery, L */
+/* globals Choropleth, jQuery, L */
 
 jQuery(function () {
     fetch('precincts-2012.json')
@@ -23,7 +23,7 @@ jQuery(function () {
                 };
             };
             const data = {};
-            const map = new DcMap(geoJson, {tileLayer, style, data, usePopups: false}).display();
+            const map = new Choropleth(geoJson, {tileLayer, style, data, usePopups: false}).display();
             setInterval(setData, 1000);
             function setData() {
                 const data = [];

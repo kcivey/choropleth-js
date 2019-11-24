@@ -1,27 +1,27 @@
 {
-  "name": "dc-precinct-map",
-  "version": "0.0.1",
-  "description": "Leaflet-based map of voting precincts for the District of Columbia",
+  "name": "choropleth-js",
+  "version": "0.1.0",
+  "description": "Leaflet-based maps of data",
   "author": "Keith C. Ivey <keith@iveys.org> (https://github.com/kcivey)",
   "license": "ISC",
   "dependencies": {
     "@mapbox/togeojson": "^0.16.0",
-    "eslint": "^6.6.0",
+    "eslint": "^6.7.0",
     "jquery": "^3.4.1",
-    "leaflet": "^1.5.1",
+    "leaflet": "^1.6.0",
     "xmldom": "^0.1.27"
   },
-  "main": "kml-to-geojson.js",
+  "main": "choropleth.js",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kcivey/dc-precinct-map.git"
+    "url": "git+https://github.com/kcivey/choropleth-js.git"
   },
   "bugs": {
-    "url": "https://github.com/kcivey/dc-precinct-map/issues"
+    "url": "https://github.com/kcivey/choropleth-js/issues"
   },
-  "homepage": "https://github.com/kcivey/dc-precinct-map#readme"
+  "homepage": "https://github.com/kcivey/choropleth-js#readme"
 }

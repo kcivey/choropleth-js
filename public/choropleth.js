@@ -1,6 +1,6 @@
 /* globals L, jQuery */
 
-class DcMap { // eslint-disable-line no-unused-vars
+class Choropleth { // eslint-disable-line no-unused-vars
 
     constructor(geoJsonData, options = {}) {
         this.properties = {};
