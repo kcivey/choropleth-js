@@ -243,3 +243,5 @@ class Choropleth { // eslint-disable-line no-unused-vars
     }
 
 }
+
+global.Choropleth = Choropleth;

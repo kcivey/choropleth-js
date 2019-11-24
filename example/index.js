@@ -1,6 +1,6 @@
-/* globals Choropleth, jQuery, L */
+/* globals Choropleth, L */
 
-jQuery(function () {
+(function () {
     fetch('precincts-2012.json')
         .then(function (response) {
             return response.json();
@@ -33,4 +33,4 @@ jQuery(function () {
                 map.setData(data);
             }
         });
-});
+})();
