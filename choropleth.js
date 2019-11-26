@@ -251,4 +251,9 @@ class Choropleth { // eslint-disable-line no-unused-vars
 
 }
 
-global.Choropleth = Choropleth;
+if (typeof module === 'object' && module.exports) {
+    module.exports = Choropleth;
+}
+else {
+    global.Choropleth = Choropleth;
+}
