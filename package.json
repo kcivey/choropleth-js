@@ -5,6 +5,7 @@
   "author": "Keith C. Ivey <keith@iveys.org> (https://github.com/kcivey)",
   "license": "ISC",
   "dependencies": {
+    "core-js": "^3.6.5",
     "leaflet": "^1.6.0",
     "terser": "^4.7.0"
   },
@@ -15,7 +16,6 @@
     "@babel/preset-env": "^7.10.2",
     "@mapbox/togeojson": "^0.16.0",
     "browserify": "^16.5.1",
-    "core-js": "^2.6.11",
     "eslint": "^6.8.0",
     "xmldom": "^0.1.31"
   },
