@@ -1,6 +1,6 @@
 {
   "name": "choropleth-js",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Leaflet-based maps of data",
   "author": "Keith C. Ivey <keith@iveys.org> (https://github.com/kcivey)",
   "license": "ISC",
