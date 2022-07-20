@@ -8,7 +8,7 @@
     "core-js": "^3.6.5",
     "eslint": "^7.1.0",
     "leaflet": "^1.6.0",
-    "terser": "^5.6.1",
+    "terser": "^5.14.2",
     "xmldom": "^0.6.0"
   },
   "main": "choropleth.js",
